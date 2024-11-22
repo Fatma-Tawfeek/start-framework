@@ -1,0 +1,9 @@
+main {
+  background-color: var(--primary-color);
+}
+
+.line {
+  height: 4px;
+  width: 80px;
+  background-color: #fff;
+}
