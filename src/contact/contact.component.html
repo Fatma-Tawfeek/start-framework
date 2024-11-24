@@ -1,1 +1,68 @@
-<p>contact works!</p>
+<main class="mt-5 pt-5">
+  <section class="py-4">
+    <div
+      class="container d-flex justify-content-center align-items-center text-white"
+    >
+      <div class="row gy-4 mx-auto w-100 w-md-50">
+        <h1 class="text-center text-uppercase fw-bold mt-4">conatct section</h1>
+        <div class="d-flex justify-content-center align-items-center mt-3 mb-5">
+          <div class="line"></div>
+          <i class="fa-solid fa-star px-3"></i>
+          <div class="line"></div>
+        </div>
+        <div class="col-12 col-md-7 mx-auto">
+          <form>
+            <div class="mb-1">
+              <label for="name" class="text-start __top">userName:</label>
+              <input
+                type="text"
+                class="form-control w-100 border-0 border-bottom border-1 py-3 shadow-none"
+                aria-describedby="emailHelp"
+                placeholder="userName"
+                id="name"
+                (input)="displayLabel($event)"
+                (input)="hideLabel($event)"
+              />
+            </div>
+            <div class="mb-1">
+              <label for="name" class="text-start __top">userAge:</label>
+              <input
+                type="text"
+                class="form-control w-100 border-0 border-bottom border-1 py-3 shadow-none"
+                aria-describedby="emailHelp"
+                placeholder="userAge"
+                (input)="displayLabel($event)"
+                (input)="hideLabel($event)"
+              />
+            </div>
+            <div class="mb-1">
+              <label for="name" class="text-start __top">userEmail:</label>
+              <input
+                type="email"
+                class="form-control w-100 border-0 border-bottom border-1 py-3 shadow-none"
+                aria-describedby="emailHelp"
+                placeholder="userEmail"
+                (input)="displayLabel($event)"
+                (input)="hideLabel($event)"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="name" class="text-start __top">userPassword:</label>
+              <input
+                type="password"
+                class="form-control w-100 border-0 border-bottom border-1 py-3 shadow-none"
+                aria-describedby="emailHelp"
+                placeholder="userPassword"
+                (input)="displayLabel($event)"
+                (input)="hideLabel($event)"
+              />
+            </div>
+            <div class="text-start">
+              <button type="submit" class="btn submit-btn">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

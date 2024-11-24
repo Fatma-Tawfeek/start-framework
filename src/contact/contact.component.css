@@ -1,0 +1,22 @@
+h1,
+i {
+  color: var(--secondary-color);
+}
+.line {
+  height: 4px;
+  width: 80px;
+  background-color: var(--secondary-color);
+}
+label {
+  color: var(--primary-color);
+  transition: all 0.4s ease-in-out;
+}
+
+.__top {
+  transform: translateY(50px);
+  opacity: 0;
+}
+.submit-btn {
+  background-color: var(--primary-color);
+  color: #fff;
+}
